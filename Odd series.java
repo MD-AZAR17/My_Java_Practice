@@ -7,7 +7,7 @@ public class Sample
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the range: ");
 		int n=sc.nextInt();
-		System.out.println("The even series are : ");
+		System.out.println("The odd series are : ");
 		for(int i=1;i<=n;i+=2)
 		{
 			System.out.println(i);
